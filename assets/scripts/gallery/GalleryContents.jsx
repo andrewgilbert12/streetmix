@@ -117,7 +117,7 @@ function GalleryContents (props) {
               selected={selectedStreet === item.id}
               doSelect={selectStreet}
               doDelete={deleteStreet}
-              showStreetOwner={userId !== item.creatorId}
+              showStreetOwner={userId !== item.creator_id}
               allowDelete={isOwnedByCurrentUser}
             />
           ))}
